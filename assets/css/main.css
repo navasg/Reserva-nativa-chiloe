@@ -390,6 +390,12 @@ footer .title-section {
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
 
+
+/* VIEW PLANS */  
+
+.container-maps, .container-maps iframe {
+  width: 100%;
+}
 /*SCROLLBAR*/
 ::-webkit-scrollbar
 {
