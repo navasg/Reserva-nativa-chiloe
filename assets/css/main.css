@@ -390,7 +390,9 @@ footer .title-section {
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
 
-
+.carousel-anexo  ul.slick-dots {
+  bottom: -2rem!important;
+}
 /* VIEW PLANS */  
 
 .container-maps, .container-maps iframe {
@@ -470,8 +472,8 @@ footer .title-section {
     margin-top: 3rem;
   }
 
-  .carousel-anexo  .slick-dots {
-    bottom: -2rem;
+  .carousel-anexo  ul.slick-dots {
+    bottom: -2rem!important;
 }
 
 .multiple-items .slick-next {
