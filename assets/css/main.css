@@ -206,6 +206,7 @@ html {
   height: 100%;
   display: flex;
   flex-direction: column;
+  padding-left: 0;
   justify-content: center;
 }
 
@@ -408,3 +409,72 @@ footer .title-section {
 }
 
 
+/* MEDOAS QUERIES */
+
+@media screen and (min-width: 0px) and (max-width: 997px) {
+  html {
+    font-size: 13px;
+  }
+
+  .title-banner {
+    font-size: 3rem;
+  }
+
+  .ul-about {
+    text-align: center;
+  }
+  .ul-about li {
+    margin: .5rem 0;
+  }
+
+  .card-first {
+    margin-bottom: 3rem;
+  }
+
+  .item-footer {
+    display: block;
+  }
+
+  .info-extra img  {
+    margin-top: 3rem;
+  }
+
+  .description-general {
+    text-align: center;
+  }
+
+  .road .title-section {
+    text-align: center;
+  }
+
+  .road .title-section::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .description-item {
+    min-height: 8rem!important;
+  }
+
+  .ubication .map-img {
+    margin-bottom: 3rem;
+  }
+
+  .about img {
+    margin-top: 3rem;
+  }
+
+  .carousel-anexo  .slick-dots {
+    bottom: -2rem;
+}
+
+.multiple-items .slick-next {
+  right: -6px;
+}
+
+.multiple-items .slick-prev {
+  left: -6px;
+}
+  
+
+}
