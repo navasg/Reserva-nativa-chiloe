@@ -42,22 +42,20 @@
           <div class="nav-flex">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="/index.html">Inicio</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="#about-2">Quiénes Somos</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="about.html">Quiénes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="#questions">Ubicación</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="ubicaction.html">Ubicación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="#questions">Planos</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="">Planos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="#form">Chiloe</a>
-              </li>
+
               <li class="nav-item contact-responsive">
-                <a class="nav-link nav-custom" data-toggle="offcanvas" href="#footer">Contacto</a>
+                <a class="nav-link nav-custom" data-toggle="offcanvas" href="#contact">Contacto</a>
               </li>
             </ul>
           </div>
@@ -160,9 +158,9 @@
               <p class="description-item">Desde la puerta de la parcelación, usted podrá disfrutar de los maravillosos
                 paisajes de Chiloé</p>
               <center>
-                <button class="template-btn btn">
+                <a href="information.html" class="template-btn btn">
                   Leer más
-                </button>
+                </a>
               </center>
             </div>
           </div>
@@ -174,11 +172,12 @@
             </div>
             <div class="body-card">
               <h3 class="title-item">¿Cómo llegar?</h3>
-              <p class="description-item">En menos de 15 minutos a la costa o a la carretera panamericana sur.</p>
+              <p class="description-item">Geomorfológicamente, el archipiélago corresponde a las estribaciones de la
+                cordillera de la Costa chilena.</p>
               <center>
-                <button class="template-btn btn">
+                <a href="road.html" class="template-btn btn">
                   Leer más
-                </button>
+                </a>
               </center>
             </div>
           </div>
@@ -193,13 +192,15 @@
               <p class="description-item">Accede a toda la riqueza que posee la Isla Grande de CHILOE, a su diversidad
                 geológica y a su patrimonio cultural e histórico.</p>
               <center>
-                <button class="template-btn btn">
+                <a href="gallery.html" class="template-btn btn">
                   Leer más
-                </button>
+                </a>
               </center>
             </div>
           </div>
         </div>
+
+
       </div>
     </div>
   </section>
@@ -208,8 +209,8 @@
   <section>
     <div class="container padding-top-bottom">
       <h2 class="title-section">Isla Grande de Chiloé</h2>
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="multiple-items">
+        <a class="box-card" data-toggle="modal" data-target="#exampleModalScrollable">
           <div class="item-home">
             <div class="img-item" style="background-image: url('assets/img/terreno-chiloe-7-1024x576.jpg')">
             </div>
@@ -219,9 +220,8 @@
                 siempre verde con gran diversidad de especies vegetales.</p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-
+        </a>
+        <a class="box-card" data-toggle="modal" data-target="#exampleModalScrollable">
           <div class="item-home">
             <div class="img-item" style="background-image: url('assets/img/iglesia-chiloe.jpg')">
             </div>
@@ -231,8 +231,8 @@
                 incluso se usan tarugos en lugar de clavos para la obra gruesa.</p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
+        </a>
+        <a class="box-card" data-toggle="modal" data-target="#exampleModalScrollable">
           <div class="item-home">
             <div class="img-item" style="background-image: url('assets/img/terreno-chiloe-1-1024x683.jpg')">
             </div>
@@ -242,13 +242,79 @@
                 música ostenta gran vitalidad, tempos ágiles y ritmos vibrantes.</p>
             </div>
           </div>
+        </a>
+        <a class="box-card" data-toggle="modal" data-target="#exampleModalScrollable">
+
+          <div class="item-home">
+            <div class="img-item" style="background-image: url('assets/img/iglesia-chiloe.jpg')">
+            </div>
+            <div class=" body-item">
+              <h3 class="title-item">Etimología</h3>
+              <p class="description-item">Chiloé es una transformación de Chilhué, la adaptación al español de chillwe,
+                palabra que en mapudungun significa ‘lugar de chelles’.</p>
+            </div>
+          </div>
+        </a>
+        <a class="box-card" data-toggle="modal" data-target="#exampleModalScrollable">
+
+          <div class="item-home">
+            <div class="img-item" style="background-image: url('assets/img/iglesia-chiloe.jpg')">
+            </div>
+            <div class=" body-item">
+              <h3 class="title-item">Geografía</h3>
+              <p class="description-item"> Geomorfológicamente, el archipiélago corresponde a las estribaciones de la
+                cordillera de la Costa chilena.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    </a>
+
+    <!-- Modal Geografia -->
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title title-item text-center" id="exampleModalScrollableTitle">Geografía</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="">
+              Geomorfológicamente, el archipiélago corresponde a las estribaciones de la cordillera de la Costa chilena,
+              de la cual solo las cimas emergen del océano Pacífico tras el hundimiento del valle central.
+
+              La isla Grande de Chiloé tiene forma rectangular, con prolongaciones en la península de Lacuy, la
+              península de Rilán y con entradas en la bahía de Cucao y el canal Dalcahue. La costa occidental es
+              escarpada y sin puertos naturales. La cordillera de la Costa recibe los nombres de cordillera del Piuchén
+              o de San Pedro, en el sector norte, y de Pirulil, en el sector sur. Se presenta como una sucesión de
+              colinas altas y cubiertas de vegetación que en su parte norte bordean los 800 m de altura y que no
+              alcanzan más de 500 m al sur del lago Cucao. Entre estas colinas altas y el mar interior hay planicies y
+              colinas más bajas, dedicadas a la agricultura y la explotación forestal. A causa de la erosión de los
+              glaciares, la costa oriental de la isla Grande es muy sinuosa, llena de ensenadas y promontorios, al igual
+              que la costa de las islas menores.
+
+              De acuerdo al tráfico marítimo de navegación interior se tiene el importante canal de Chacao, que separa
+              la provincia de Llanquihue de la costa norte de la isla Grande de Chiloé. Hay bastantes canales
+              secundarios que comunican las distintas islas, puertos y localidades del archipiélago, siendo los más
+              importantes: Caucahué, Quicaví, Chauques, Dalcahue, Quinchao, Apiao, Lemuy, Yal, Queilen, Chaiguao,
+              Yelcho, Laitec, San Pedro y Huamblad.
+            </p>
+          </div>
+          <div class="modal-footer">
+          </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- END GALLERY -->
   <!-- FOOTER -->
-  <footer>
+  <footer id="contact">
     <div class="container padding-top-bottom">
       <h2 class="title-section">Contáctanos</h2>
       <div class="row d-flex">
