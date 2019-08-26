@@ -11,7 +11,7 @@
               <p class="description-item">Desde la puerta de la parcelación, usted podrá disfrutar de los maravillosos
                 paisajes de Chiloé</p>
               <center>
-                <a href="<?php echo bloginfo('url'); ?>/informacion" class="template-btn btn">
+                <a href="<?php echo bloginfo('url'); ?>/detalles" class="template-btn btn">
                   Leer más
                 </a>
               </center>

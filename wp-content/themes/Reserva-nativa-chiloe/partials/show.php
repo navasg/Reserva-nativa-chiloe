@@ -11,9 +11,8 @@
                   </div>
                   <div class="body-item">
                     <h3 class="title-item"><?php the_title(); ?> </h3>
-                    <div class="description-item">
-                      <?php echo get_the_excerpt(); ?>
-                    </div>
+                    <p class="description-item">
+                      <?php echo excerpt(15); ?></p>
                   </div>
                 </div>
               </a>
