@@ -160,7 +160,7 @@ html {
   background-position: center;
 }
 
-.description-item {
+.description-item p {
   font-size: 1rem;
   text-align: center;
   height: 6rem;
